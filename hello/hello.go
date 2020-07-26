@@ -1,3 +1,4 @@
+// Hello, World package that takes in a name and handles multiple language greetings
 package main
 
 import "fmt"
@@ -10,6 +11,7 @@ const spanishHelloPrefix = "Hola, "
 const frenchHelloPrefix = "Bonjour, "
 const germanHelloPrefix = "Hallo, "
 
+// greetingPrefix() takes in a language and returns the proper greeting as a string.
 func greetingPrefix(language string) (prefix string) {
 	switch language {
 	case french:
@@ -24,6 +26,7 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
+// Hello() takes in a name and language and returns the full greeting to the correct name.
 func Hello(name string, language string) string {
 	if name == "" {
 		name = "World"
