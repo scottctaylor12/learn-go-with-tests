@@ -9,7 +9,7 @@ Code for going through quii/learn-go-with-tests
 - [x] Structs, Methods, and Interfaces
 - [x] Pointers and Errors
 - [x] Maps
-- [ ] Dependency Injection
+- [x] Dependency Injection
 - [ ] Mocking
 - [ ] Concurrency
 - [ ] Select
