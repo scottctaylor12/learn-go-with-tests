@@ -8,7 +8,7 @@ Code for going through quii/learn-go-with-tests
 - [x] Arrays and Slices
 - [x] Structs, Methods, and Interfaces
 - [x] Pointers and Errors
-- [ ] Maps
+- [x] Maps
 - [ ] Dependency Injection
 - [ ] Mocking
 - [ ] Concurrency
